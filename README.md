@@ -1,14 +1,23 @@
-# Audio CNN
+# Audio Intel CNN
 
-![alt text](thumbnail.png)
-
-[Link to video](https://youtu.be/KLYfwigQPuY)
-
-[Discord and more](https://www.andreastrolle.com/)
 
 ## Overview
 
-Hi 🤙 In this video, you'll learn to train and deploy an audio classification CNN from scratch with PyTorch. I'll cover all the required concepts, so no prior experience is needed. The model will classify sounds like a dog barking or birds chirping from an audio file. You'll work with advanced techniques like Residual Networks (ResNet), data mixing, and Mel Spectrograms to build a robust training pipeline. Afterwards, we'll build a dashboard using Next.js and React to upload audio and visualize the model's internal layers to see what it "sees". The project uses Python, PyTorch, Next.js, React, and Tailwind, based on the T3 Stack. You can build along with me from start to finish. All services used are 100% free for you to use.
+AudioIntel 🎧🧠
+
+AudioIntel is an end-to-end AI-powered audio classification and visualization platform that I built using PyTorch, FastAPI, Next.js, React, and Tailwind CSS. The system is capable of identifying and classifying environmental sounds such as dog barks, bird chirps, sirens, and other audio events from uploaded audio files.
+
+To achieve high accuracy and robust performance, I implemented a custom Convolutional Neural Network (CNN) with ResNet-style residual blocks, transforming raw audio signals into Mel Spectrograms for image-based feature extraction. The training pipeline incorporates advanced deep learning techniques including Mixup Data Augmentation, Time & Frequency Masking, Batch Normalization, AdamW Optimization, and OneCycle Learning Rate Scheduling.
+
+The trained model is deployed using Modal's serverless GPU infrastructure, enabling fast and scalable inference. I also developed a FastAPI backend to serve predictions through REST APIs.
+
+On the frontend, I built an interactive dashboard using Next.js, React and Tailwind CSS, allowing users to:
+
+Upload audio files for real-time classification
+View prediction confidence scores
+Visualize audio waveforms and Mel Spectrograms
+Explore internal CNN feature maps and activation layers
+Understand how the model interprets audio signals
 
 ## Features:
 
@@ -35,7 +44,7 @@ Follow these steps to install and set up the project.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Andreaswt/audio-cnn.git
+
 ```
 
 ### Install Python
